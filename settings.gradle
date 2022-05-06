@@ -1,0 +1,8 @@
+include ':BlueMS',
+        ':BlueSTSDK',
+        ':BlueSTSDK_Gui_Android',
+        ':STWINBoard_GUI_Android',
+        ':BlueMSCloud'
+
+
+project(':BlueSTSDK').projectDir = new File('BlueSTSDK/BlueSTSDK')
